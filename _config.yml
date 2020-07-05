@@ -19,7 +19,7 @@ header_pages:
     - index.md
     - about.md
 
-footer: '<a href="https://twitter.com/onlycase_">@onlycase_</a>'
+footer: '<a href="https://github.com/onlycase">onlycase</a> <a href="https://twitter.com/onlycase_">@onlycase_</a>'
 
 # Exclude from processing.
 # The following items will not be processed, by default.
