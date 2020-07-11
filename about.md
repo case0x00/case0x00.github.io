@@ -18,7 +18,6 @@ i am case.
 ## education
 
 bachelors of engineering in aerospace engineering -- class of 2020
-hopefully will start a phd fall 2021
 
 ## languages
 
