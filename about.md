@@ -4,16 +4,24 @@ title: /about
 
 i am case. 
 
-## interests
+## interests (in no particular order)
 
 * guidance, navigation, and control of spacecraft and EDL/reentry vehicles
 * interplanetary trajectory design
-* to a lesser degree rocket propulsion, electric/nuclear propulsion
+* robotics/computer vision/autonomous driving
 * web security
 * reverse engineering
-* robotics/computer vision/autonomous driving
 * AI
-* BCI
+
+## goals
+
+* L5 autonomous driving
+* ubiquitous general purpose robotics
+* cheap brain-machine interfaces
+* artificial general intelligence
+* exploration and colonization of our solar system
+* mass education reform globally
+
 
 ## education
 
