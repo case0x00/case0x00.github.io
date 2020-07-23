@@ -2,9 +2,9 @@
 title: /about
 ---
 
-i am case. 
+i am case. the following lists are in no particular order. i intend to complete most of these goals before the end of the century (space exploration has an inherently long time span because of physics). 
 
-## interests (in no particular order)
+## interests
 
 * guidance, navigation, and control of spacecraft and EDL/reentry vehicles
 * interplanetary trajectory design
