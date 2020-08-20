@@ -1,10 +1,10 @@
 ---
 layout: page
-title: /about
+title: about
 permalink: /about/
 ---
 
-i am case. the following lists are in no particular order. i intend to complete most of these goals before the end of the century (space exploration has an inherently long time span because of physics). 
+i am case.
 
 ## interests
 
@@ -65,4 +65,12 @@ i love cyberpunk.
 * Berkeley’s CS287: Advanced Robotics by Pieter Abbeel
 * Programming for Robotics - ROS (ETH)
 
-* ... whatever classes i took
+undergraduate
+* ENG2123 CONTROL
+* EEE3207 DIGITAL DESIGN WITH VHDL
+* EEEM059 SPACE AVIONICS
+* EEE2043 SPACE ENGINEERING AND MISSION DESIGN
+* EEE3039 SPACE DYNAMICS AND MISSIONS
+* ENG2093 NUMERICAL AND EXPERIMENTAL METHODS
+* and a bunch of others
+
