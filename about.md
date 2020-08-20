@@ -1,17 +1,35 @@
 ---
+layout: page
 title: /about
+permalink: /about/
 ---
 
 i am case. the following lists are in no particular order. i intend to complete most of these goals before the end of the century (space exploration has an inherently long time span because of physics). 
 
 ## interests
 
-* guidance, navigation, and control of spacecraft and EDL/reentry vehicles
-* interplanetary trajectory design
-* robotics/computer vision/autonomous driving
-* web security
-* reverse engineering
-* AI
+* robotics/control
+    - UAVs
+    - bipedal locomotion
+    - autonomous vehicles
+    - trajectory optimization
+    - brain computer interfaces
+    - guidance, navigation, and control of entry, descent and landing vehicles
+
+* AI/ML
+    - AGI
+    - reinforcement learning 
+    - computer vision
+    - symbolic AI
+
+* security
+    - web security and bug bounties
+    - hardware reverse engineering
+
+* software
+    - operating systems
+    - graphics
+
 
 ## goals
 
@@ -39,3 +57,12 @@ bachelors of engineering in aerospace engineering -- class of 2020
 ## other stuff
 
 i love cyberpunk.
+
+
+## coursework
+
+* Underactuated Robotics by Russ Tedrake
+* Berkeley’s CS287: Advanced Robotics by Pieter Abbeel
+* Programming for Robotics - ROS (ETH)
+
+* ... whatever classes i took
