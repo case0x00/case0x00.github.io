@@ -14,7 +14,7 @@ The entire system consists of two vehicles: an ego vehicle and a lead vehicle. B
 
 This could be done with more rigor with regards to the dynamic model, but maybe another time. Nonetheless, assuming that the vehicle acts purely in a one dimensional plane, either traveling forwards or backwards, by way of an applied force. This vehicle is assumed to be a point mass with some frontal area and the ability to have rolling friction with the ground. As such it can be expressed as
 
-$$ m \frac{dv(t)}{dt} = F\sb{control} - \frac{1}{2} \rho A v(t)^2 C\sb{D} - C\sb{rr} m g $$
+$$ m \frac{dv(t)}{dt} = F_{control} - \frac{1}{2} \rho A v(t)^2 C_{D} - C_{rr} m g $$
 
 Where the forces are the sum of the engine (applied through the controller) force, air resistance, and rolling resistance. Not much more detail is required as the system is incredibly simple and the controller output influences the acceleration which in turn updates the velocity and position. These are both updated according to
 
