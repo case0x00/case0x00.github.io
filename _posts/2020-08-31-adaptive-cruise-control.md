@@ -14,8 +14,7 @@ The entire system consists of two vehicles: an ego vehicle and a lead vehicle. B
 
 This could be done with more rigor with regards to the dynamic model, but maybe another time. Nonetheless, assuming that the vehicle acts purely in a one dimensional plane, either traveling forwards or backwards, by way of an applied force. This vehicle is assumed to be a point mass with some frontal area and the ability to have rolling friction with the ground. As such it can be expressed as
 
-
-$$ m \frac{dv(t)}{dt} = F\_{control} - \frac{1}{2} \rho A v(t)^2 C\_D - C\_{rr} m g $$
+$$ m \frac{dv(t)}{dt} = F\sb{control} - \frac{1}{2} \rho A v(t)^2 C\sb{D} - C\sb{rr} m g $$
 
 Where the forces are the sum of the engine (applied through the controller) force, air resistance, and rolling resistance. Not much more detail is required as the system is incredibly simple and the controller output influences the acceleration which in turn updates the velocity and position. These are both updated according to
 
@@ -66,7 +65,7 @@ If the set distance is violated, and the vehicle has not yet collided with the l
 control = -controller.Compute(lead_distance-ego_distance, set_distance);
 ```
 
-This value is negative to ensure lead\_distance-ego\_distance decelerates to reach the set distance value. If the vehicle seems to be on a collision course, the control value is computed with
+This value is negative to ensure lead\_distance-ego\_distance decelerated to reach the set distance value. If the vehicle seems to be on a collision course, the control value is computed with
 
 ```cpp
 control = -controller.Compute(0, set_distance)
