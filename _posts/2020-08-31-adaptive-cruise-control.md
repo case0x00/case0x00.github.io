@@ -26,6 +26,35 @@ $$ p = p + v * dt $$
 
 where dt is some timestep.
 
+
+## control
+
+A short explanation of PID control. The input to the PID system is the actual value and a target value, and the error can be computed by taking the difference. This error is used by the proportional, integral, and derivative terms to produce some control output with the goal of converging the actual value to the target value. Defining the error as above, then the implementation in C++ is
+
+```cpp
+double error = setpoint - actual;
+``
+
+Then the proportional value, proportional to the error, can be computed as
+
+```cpp
+p_output = P * error;
+```
+
+The integral value, proportional to the integral of the error, can be computed as
+
+```cpp
+i_output = I * error_sum;
+```
+
+And the derivative value, proportional to the change in error, can be computed as
+
+```cpp
+d_output = - D * (actual-last_actual);
+```
+
+The control output is the sum of these three terms.
+
 ## method
 
 The lead vehicle acceleration was determined to oscillate sinusoidally in an attempt to repeatedly trigger the adaptive cruise control of the ego vehicle. The control force for the lead vehicle in implementation was bypassed, and the acceleration was set manually. It can be assumed that the effects of mass, air resistance, and rolling resistance are bundled into the sinusoidal acceleration value. This was manually set using 
