@@ -3,7 +3,7 @@ author:
     name: onlycase
     email: case0x01@protonmail.com
 
-show_excerpts: false
+show_excerpts: true 
 
 minima:
     date_format: "%b %-d, %Y"
@@ -23,8 +23,11 @@ plugins:
 
 header_pages:
     - index.md
+    - worldbuilding.md
     - about.md
 
+minima:
+    skin: dark
 
 # Exclude from processing.
 # The following items will not be processed, by default.
