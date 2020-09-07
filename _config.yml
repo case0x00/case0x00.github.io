@@ -24,7 +24,6 @@ theme: minima
 header_pages:
     - index.md
     - worldbuilding.md
-    - about.md
 
 minima:
     skin: dark
