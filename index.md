@@ -1,6 +1,6 @@
 ---
 title: index
-layout: home
+layout: default 
 ---
 
 
