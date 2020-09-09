@@ -1,6 +1,6 @@
 ---
 title: about 
-layout: default 
+layout: home 
 ---
 
 i am case.
