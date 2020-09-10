@@ -3,6 +3,9 @@ layout: post
 title: "Balancing a cartpole pendulum with LQR"
 ---
 
+WORK IN PROGRESS
+
+
 ## goal
 
 explain what LQR is and what its used for, and how its applied to teh cartpole problem

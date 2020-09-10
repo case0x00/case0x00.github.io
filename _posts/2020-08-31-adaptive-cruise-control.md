@@ -33,7 +33,7 @@ A short explanation of PID control. The input to the PID system is the actual va
 
 ```cpp
 double error = setpoint - actual;
-``
+```
 
 Then the proportional value, proportional to the error, can be computed as
 
