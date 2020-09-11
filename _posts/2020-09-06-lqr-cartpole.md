@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Balancing a cartpole pendulum with LQR"
+title: Balancing a cartpole pendulum with LQR
+tag: projets
 ---
 
 WORK IN PROGRESS

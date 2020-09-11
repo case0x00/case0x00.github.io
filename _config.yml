@@ -23,7 +23,8 @@ plugins:
 
 header_pages:
     - index.md
-    - worldbuilding.md
+    - tags/projects/index.md
+    - tags/worldbuilding/index.md 
 
 minima:
     skin: dark

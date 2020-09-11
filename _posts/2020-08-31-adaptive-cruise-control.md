@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "adaptive cruise control with PID control"
+title: adaptive cruise control with PID control
+tag: projects
 ---
 
 ## goal
