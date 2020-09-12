@@ -39,3 +39,5 @@ The nose took the brunt of the force on impact, with the prop blades shearing, a
 I suppose either the impact or when the aircraft slammed the tail into the ground after impact caused the rear carbon fiber rod to snap and taking the empennage with it. The entire tail setup was janky because of poor design, so in hindsight far more thought should have been put towards part integration. I am proud to say that the main wing managed to stay attached, after all I did design that connection.
 
 Overall, as a first aircraft for the team it wasn't terrible. However the design was weak, primarily the internal structure of the fuselage, and the nosecone to fuselage and empennage to fuselage connection should have been designed better. It was a fun project regardless.
+
+<p align="center"><img src="/assets/images/dmeflight.jpg"/></p>
