@@ -21,11 +21,17 @@ i recently obtained my bachelors in aerospace engineering in the UK.
 
 ## goals
 
-this can be split into three pillars: advanced robotics, BCI, and AGI. the remaining items in the list fit into these categories, but also deserved their own point.
+this can be split into four pillars: advanced robotics, space exploration, BCI, and AGI. 
 
-* <details><summary> advanced robotics, particularly bio-inspired lifelike robotics, near indistinguishable from their biological counterparts </summary>
+* <details><summary> advanced robotics </summary>
   <i>
-  this would be the pinnacle of robotics, and although this technology features heavily in dystopian worlds like in 'do androids dream of electric sheep, 'blade runner', and 'westworld' i think those are heavily pessimistic views. L5 autonomous vehicles technically fits into this robotics category.
+  this includes autonomous vehicles, bioinspired robotics near indistinguishable from their biological counterparts, and technically space robotics/spacecraft and rocket GNC but thats more the next pillar. the kind of bioinspired robotics i am aiming for would be the pinnacle of robotics, and although this technology features heavily in dystopian worlds like in 'do androids dream of electric sheep, 'blade runner', and 'westworld' i think those are heavily pessimistic views.
+  </i>
+  </details>
+
+* <details><summary> space exploration </summary>
+  <i>
+  we have already made great strides in discovering more about our solar system, but there is much more to learn. human missions arean obvious step, but i think robotics are more fit for this role. I believe all of the other pillars of interest here essentially lead to space exploration and settling of other worlds.
   </i>
   </details>
 
@@ -42,19 +48,6 @@ this can be split into three pillars: advanced robotics, BCI, and AGI. the remai
   </i>
   </details>
 
-* <details><summary> L5 autonomous vehicles </summary>
-  <i>
-  autonomous vehicles are the best current implementation for an artificial intelligence and i believe work here can contribute towards AGI. furthermore, and more interestingly for most people, an enormous amount of time is wasted driving. it just makes sense to optimize the driving process.
-  </i>
-  </details>
-
-* <details>
-  <summary> exploration of our solar system and beyond </summary>
-  <i>
-  we have already made great strides in discovering more about our solar system, but there is much more to learn. human missions arean obvious step, but i think robotics are more fit for this role. a caveat to this point is that i think far more exploration must also be done here on earth, in our oceans. there is still a lot to learn about our own world.
-  </i>
-  </details>
-
 
 ## interests
 
@@ -63,8 +56,8 @@ this is partially an extension of my goals, but has more specificity and include
 * robotics
     - UAVs
     - bipedal and quadrupedal locomotion
+    - spacecraft and rocket GNC
     - autonomous vehicles
-    - spacecraft GNC
 
 * AI/ML
     - AGI

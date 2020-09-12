@@ -6,3 +6,4 @@ vendor
 .bundle/config
 Gemfile.lock
 *.gem
+_drafts
