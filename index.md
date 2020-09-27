@@ -5,7 +5,7 @@ layout: home
 
 i am case.
 
-i am passionate about robotics. [here](https://github.com/onlycase) is my github.
+i am passionate about robotics and space. [here](https://github.com/onlycase) is my github. although, i have many other interests.
 
 i recently obtained my bachelors in aerospace engineering in the UK.
 
@@ -25,26 +25,26 @@ this can be split into four pillars: advanced robotics, space exploration, BCI, 
 
 * <details><summary> advanced robotics </summary>
   <i>
-  this includes autonomous vehicles, bioinspired robotics near indistinguishable from their biological counterparts, and technically space robotics/spacecraft and rocket GNC but thats more the next pillar. the kind of bioinspired robotics i am aiming for would be the pinnacle of robotics, and although this technology features heavily in dystopian worlds like in 'do androids dream of electric sheep, 'blade runner', and 'westworld' i think those are heavily pessimistic views.
+  this includes autonomous vehicles, bio-robotics/bipedals/quadrupedals, and technically space robotics. these systems have the ability to completely change how humans work and operate in our environment. the challenges are in both software and hardware, and i believe some companies are taking the right approach to solving these problems.
   </i>
   </details>
 
 * <details><summary> space exploration </summary>
   <i>
-  we have already made great strides in discovering more about our solar system, but there is much more to learn. human missions arean obvious step, but i think robotics are more fit for this role. I believe all of the other pillars of interest here essentially lead to space exploration and settling of other worlds.
+  we have already made great strides in discovering more about our solar system, but there is much more to learn. human missions are an obvious step, but i think robotics are more fit for this role. I believe all of the other pillars of interest here essentially lead to space exploration and settling of other worlds. this is my primary calling.
   </i>
   </details>
 
-* <details><summary> cheap and ubiquitous brain-computer interfaces </summary>
+* <details><summary> brain-computer interfaces </summary>
   <i>
-  there is an incredible bottleneck in communication bandwidth in the form of the human sensory organs. bypassing these, and interfacing directly to the brain would be an evolutionary leap for humanity. in the process, we will learn a great amount of how the brain works, solving many mysteries, and saving countless lives.
+  there is an incredible bottleneck in communication bandwidth in the form of the human sensory organs. bypassing these, and interfacing directly to the brain would be an evolutionary leap for humanity. in the process, we will learn a great amount of how the brain works, solving many mysteries, and saving countless lives. this can also be paired with AR/VR.
   </i>
   </details>
 
 
 * <details><summary> artificial general intelligence</summary>
   <i>
-  what is there to say? this would be the pinnacle of all human creation -- creating an artificial human-level intelligence. one of the most, if not the most, challenging problems the world may ever see. i will write a blog post about this at some point.  
+  what is there to say? this would be the pinnacle of all human creation -- creating an artificial human-level intelligence. one of the most, if not the most, challenging problems the world may ever see. i will write a blog post about this at some point. afaik no one at present is tackling this problem properly.
   </i>
   </details>
 
@@ -53,16 +53,23 @@ this can be split into four pillars: advanced robotics, space exploration, BCI, 
 
 this is partially an extension of my goals, but has more specificity and includes some unrelated interests.
 
+* space
+    - launch vehicle GNC and design
+    - spacecraft AOCS/GNC and design
+    - space robotics autonomy and design
+    - spacecraft propulsion
+    - astrophysics
+
 * robotics
     - UAVs
     - bipedal and quadrupedal locomotion
-    - spacecraft and rocket GNC
     - autonomous vehicles
+    - perception, primarily computer vision
+    - reinforcement learning
 
-* AI/ML
-    - AGI
-    - reinforcement learning, primarily for robotics
-    - computer vision, primarily for robotics perception
+* AI
+    - AGI software/hardware/wetware
+    - BCI as an interface to an AGI
 
 * security
     - web security
@@ -71,6 +78,9 @@ this is partially an extension of my goals, but has more specificity and include
 * software
     - operating systems development
     - graphics
+
+* misc
+    - VR as i think it has incredible potential for escapism
 
 * worldbuilding
     - i like building fictional worlds similar to tolkein, herbert, pratchett, asimov, etc.
@@ -85,7 +95,7 @@ i will attach my resume here at some point but [here](https://www.linkedin.com/i
 ## languages
 
 * english
-* some korean, spanish, rusisan, japanese, french
+* some korean, spanish, russian, japanese, french
 
 ## projects
 
