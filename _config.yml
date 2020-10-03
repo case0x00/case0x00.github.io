@@ -26,6 +26,7 @@ header_pages:
     - tags/projects/index.md
     - tags/notes/index.md
     - tags/worldbuilding/index.md 
+    - tags/resume.pdf
 
 minima:
     skin: dark

@@ -3,25 +3,22 @@ title: about
 layout: home 
 ---
 
-i am case.
+## briefly about me
 
-i am passionate about robotics and space. [here](https://github.com/onlycase) is my github. although, i have many other interests.
+i am case. i am passionate about robotics and space, and i am a hacker. [here](https://github.com/onlycase) is my github. it is my goal to push humanity both to the stars and to evolve beyond what we today consider human. 
 
-i recently obtained my bachelors in aerospace engineering in the UK.
+i recently obtained my bachelors in aerospace engineering in the UK, and am looking to pursue a PhD in aerospace engineering or robotics in the united states at some point in the future with my research interests focusing on autonomous systems in uncertain environments. this is applied to both terrestrial vehicles and spacecraft.
 
-## index
+[here](https://onlycase.github.io/tags/projects/) is a link to all my project related blog posts. i am only just getting it started. 
 
-1. [goals](#goals)
-2. [interests](#interests)
-3. [experience](#experience)
-4. [languages](#languages)
-5. [projects](#projects)
-6. [worldbuilding](#worldbuilding)
+[here](https://onlycase.github.io/tags/notes/) is a link to all my notes related blog posts. these are just random thoughts or short research topics that i am storing for personal use.
+
+[here](https://onlycase.github.io/tags/worldbuilding/) is a link to all my worldbuilding related blog posts. all of my resources are scattered, from paper and notebooks to files on the cloud and hard drives so i am trying to coalesce them. these posts primarily focus on my most recent world/mythos, which usually contains fragments of older worlds but i may add separate posts for older worlds one day.
 
 
 ## goals
 
-this can be split into four pillars: advanced robotics, space exploration, BCI, and AGI. 
+my goals can be split into four pillars: 
 
 * <details><summary> advanced robotics </summary>
   <i>
@@ -31,7 +28,7 @@ this can be split into four pillars: advanced robotics, space exploration, BCI, 
 
 * <details><summary> space exploration </summary>
   <i>
-  we have already made great strides in discovering more about our solar system, but there is much more to learn. human missions are an obvious step, but i think robotics are more fit for this role. I believe all of the other pillars of interest here essentially lead to space exploration and settling of other worlds. this is my primary calling.
+  we have already made great strides in discovering more about our solar system, but there is much more to learn. human missions are an obvious step, but i think robotics are more appropriate for this role. I believe all of the other pillars of interest here essentially lead to space exploration and settling of other worlds. this is my primary calling.
   </i>
   </details>
 
@@ -48,60 +45,24 @@ this can be split into four pillars: advanced robotics, space exploration, BCI, 
   </i>
   </details>
 
+within robotics, my interests can be further divided into:
+* UAVs
+* bipedal and quadrupedal locomotion
+* autonomous vehicles
+* perception 
 
-## interests
+and within space, my interests can be further divied into:
+* launch vehicle GNC and design
+* spacecraft AOCS/GNC and design
+* space robotics autonomy and design
+* space mission design
+* spacecraft propulsion
+* astrophysics
 
-this is partially an extension of my goals, but has more specificity and includes some unrelated interests.
-
-* space
-    - launch vehicle GNC and design
-    - spacecraft AOCS/GNC and design
-    - space robotics autonomy and design
-    - spacecraft propulsion
-    - astrophysics
-
-* robotics
-    - UAVs
-    - bipedal and quadrupedal locomotion
-    - autonomous vehicles
-    - perception, primarily computer vision
-    - reinforcement learning
-
-* AI
-    - AGI software/hardware/wetware
-    - BCI as an interface to an AGI
-
-* security
-    - web security
-    - hardware reverse engineering
-
-* software
-    - operating systems development
-    - graphics
-
-* misc
-    - VR as i think it has incredible potential for escapism
-
-* worldbuilding
-    - i like building fictional worlds similar to tolkein, herbert, pratchett, asimov, etc.
-
-
-## experience
-
-i worked for a summer at the university of york's space robotics and autonomous systems lab where i designed and built a rover with a tensegrity spine structure with bio-inspired control (i definitely want to work more with tensegrity structures). during my undergraduate i worked on a variety of design teams, building and flying UAVs and rockets. i also build robots in my spare time.
-
-i will attach my resume here at some point but [here](https://www.linkedin.com/in/thomas-case-cutler-b59375162/) is my linkedin.
 
 ## languages
 
 * english
 * some korean, spanish, russian, japanese, french
 
-## projects
-
-[here](https://onlycase.github.io/tags/projects/) is a link to all my project related blog posts. i am only just getting it started. 
-
-## worldbuilding
-
-[here](https://onlycase.github.io/tags/worldbuilding/) is a link to all my worldbuilding related blog posts. all of my resources are scattered, from paper and notebooks to files on the cloud and hard drives so i am trying to coalesce them. these posts primarily focus on my most recent world/mythos, which usually contains fragments of older worlds but i may add separate posts for older worlds one day.
-
+i would like to become fluent in all of these.
