@@ -24,6 +24,7 @@ plugins:
 header_pages:
     - index.md
     - tags/projects/index.md
+    - tags/notes/index.md
     - tags/worldbuilding/index.md 
 
 minima:
