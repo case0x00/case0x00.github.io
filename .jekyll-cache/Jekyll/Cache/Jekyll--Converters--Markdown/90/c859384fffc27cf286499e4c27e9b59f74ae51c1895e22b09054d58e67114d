@@ -1,0 +1,24 @@
+I"—<h2 id="the-problem">the problem</h2>
+
+<p>explain what a cartpole is</p>
+
+<h2 id="system-modeling">system modeling</h2>
+
+<p>go through russâ€™s cartpole modeling for the cartpole</p>
+
+<h2 id="control">control</h2>
+
+<p>briefly explain LQR and how it sused to solve the problem</p>
+
+<h3 id="continuous-time-algebraic-riccati-equation-solver">continuous time algebraic riccati equation solver</h3>
+
+<p>explain the riccati equation and its role in LQR. derive the CARE algorithm with the sign matrix function</p>
+
+<h3 id="linear-quadratic-controller">linear quadratic controller</h3>
+
+<p>derive the LQR</p>
+
+<h2 id="results">results</h2>
+
+<h2 id="future">future</h2>
+:ET
