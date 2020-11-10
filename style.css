@@ -1,10 +1,11 @@
 body {
-    max-width: 540px;
+/*    max-width: 540px; */
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
-/*        background-color: #20242b;
-    color: #dde8f8; */
+    padding: 0 100px;
+    background-color: #20242b;
+    color: #dde8f8;
 }
 
 .title {
@@ -20,23 +21,33 @@ body {
     width: 540px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
 .navbar {
-    width: 100%;
-/*        background-color: #2e343f; */
-    overflow: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px 0;
+    width: 540px;
+    text-align: center;
 }
 
 .navbar a {
     float: left;
-    text-decoration: none;
-/*        color: #dde8f8; */
-/*        color: white; */
     width: 20%;
-    text-align: center;
+    color: white;
+    text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
+
+a {
+    text-decoration: none;
+    color: #008B8B;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
