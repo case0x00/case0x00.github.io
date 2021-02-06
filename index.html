@@ -4,58 +4,75 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-	<title>case | home</title>
+	<title>case</title>
 </head>
-
-<link rel="icon" href="assets/EYFuDg5XgAUEbtn.jpg">
 
 <body>
 <div class="title">case</div>
 
-<div class="navbar">
-      <a href="index.html">home</a>
-      <a href="projects.html">projects</a>
-      <a href="notes.html">notes</a>
-      <a href="contact.html">contact</a>
-</div>
 <br>
 <hr>
 
-<img style="padding-right: 30px;" src="assets/tumblr_8372105d7e69fc935643f1ba3c60b715_423225b6_540.gif" align="left">
 
 <h1>about me</h1>
 
-<p>my nickname/alias is case, though my legal name is thomas cutler.</p>
+<p>I am thomas "case" cutler. I am an engineer and a hacker. I recently obtained my bachelors in aerospace engineering. the nickname case came from the 1984 novel neuromancer where the character is a "console cowboy" and a brilliant hacker.</p>
 
-<p>I am an engineer and a hacker. I recently obtained my bachelors in aerospace engineering. the name case came from the 1984 novel neuromancer where the character is a "console cowboy" and a brilliant hacker.</p>
+<p>you can find me on twitter <a href="https://twitter.com/case0x00">@case0x00</a>, github <a href="https://github.com/case0x00">case0x00</a> or email me case0x00 at protonmail.com</p>
 
-<p>my research interests are (space) robotics and optimal control, (low thrust) interplanetary trajectory design, hacking and reverse engineering, AI, and BCI/cyberware.</p>
+<p>my interests are robotics, astrodynamics, and applied hacking.</p>
 
+<h1> projects </h1>
 
-<p><br clear="left"/>
-<br/>
-</p>
+<p>most names are generated using my tool <a href="https://github.com/case0x00/proj_namegen">proj_namegen</a>.</p>
 
-
-<h1> goals </h1>
-
-<p>in my lifetime there are three areas which I want to pursue: space exploration, robotics and cyberware, and AGI.</p>
+<h2> present </h2>
 
 <ul>
-<li>
-    my goal for space exploration is to harvest the myriad resources available in space from asteroids and comets primarily, and to establish research stations on the surface on and in orbit of various planets, moons, and other small bodies. by the end of the century these stations should have permanent inhabitants, with maybe 100,000+ people regularly living in space either in orbits or on the surface.
-</li>
-<br>
-<li>
-    robotics development will greatly enhance the ability to carry out the goals stated in the prior point. advanced robotics should alleviate the necessity for people to perform dangerous jobs, as well as making people's lives infinitely easier in industrial, domestic, and other areas. people's vision of the future for the past 100 years has always contained an abundance of robots and other similar systems, and its high time we realize that future as our reality. cyberware encompasses brain-computer interfaces (BCIs) and advanced prosthetics. this initially would allow patients who have suffered severe body trauma to function as they would pre-trauma, and BCIs would allow communication channels to bypass the natural bandwidth bottlenecks in human sensory organs input and prehensile appendage control as the next stage in evolution.
-</li>
-<br>
-<li>
-    AGI/ASI is another critical area to pursue and ties into the second point. I think fears are misguided, since if we are able to merge humans and AGI/ASI through cyberware as a kind of symbiotic relationship then we can both benefit. this one is definitely more time critical given the national security implications, however I think a realistic reality is one whereby there are dozens (or hundreds) of AGI/ASI agents rather than a monolithic one at the mercy of whatever nation creates it. this should be achieved around 2050.
-
-
-</li>
+    <li><i>PHANTOMCYCLOPS</i> -- quadrotor with 2DOF gimballed camera as a UAV hacking testbed</li>
+    <li><i>EYEOFSAURON</i> -- laser attack platform for counter-UAV ops</li>
+    <li><i>SOLARNIGHT</i> -- UAV battery deployable from a truck bed (6-8x UAVs)</li>
+    <li><i>AZUREVIPER</i> -- single ball-wheel robot with auto stabilization and autonomy as a prototype for torso control </li>
+    <li><i>LATENTRUN</i> -- wheel-leg robot as a prototype for off-world hybrid locomotion </li>
+    <li><i>HYPERWITCH</i> -- variable thickness tree trunk vertical ascent and descent robot </li>
+    <li><i>LOTUSACID</i> -- underwater autonomous vehicle designed for low visibility environments</li>
+    <li><i>GAMMAFLARE</i> -- winch firing robot</li>
+    <li><i>BARRACUDA</i> -- medium fidelity low-thrust interplanetary trajectory design and optimization tool in C++ with python bindings</li>
+    <li><i>SWORDFISH</i> -- optimization engine in C++ as an alternative to SNOPT (since it isnt FOSS which is really annoying)</li>
+    <li><i>NAUTILUS</i> -- Earth-Mars analog mission analysis with Python flight software using kRPC in KSP</li>
 </ul>
+
+<h2> past </h2>
+
+<ul>
+    <li><a href="https://github.com/case0x00/krill"><i>KRILL</i></a> -- circular restricted three body problem in python (variation of ZVC for different jacobi integral values, motion of bounded third body using RK4)</li>
+    <ul>
+        <li>I do want this to be a CR3BP research toolbox in C++ with python bindings at some point with full support for various libration point orbits, poincare map generation, etc. but I need to do more research into space manifold dynamics</li>
+    </ul>
+    <li><a href="https://github.com/case0x00/starfish"><i>STARFISH</i></a> -- launch window planning tool (building porkchop plots) in python </li>
+    <li><a href="https://github.com/case0x00/olympusfire"><i>OLYMPUSFIRE</i></a> -- recon script in bash</li>
+    <li><a href="https://github.com/case0x00/EKF-fusion">C++ extended kalman filter</a> for fusing noisy lidar and radar sensor measurements </li>
+    <li><a href="https://github.com/case0x00/kalman-filter">C++ kalman filter</a> for state estimation of a noisy sinusoidal waveform </li>
+    <li><a href="https://github.com/case0x00/6.828">MIT 6.828 operating systems (although not completed, indefinitely on hold)</a></li>
+    <li><a href="https://github.com/case0x00/ceres-curve-fitting">least squares curve fitting with ceres and C++</a></li>
+    <li>junior year rocket team avionics -- avionics design</li>
+    <li>junior year UAV team avionics -- flight computer design</li>
+    <li>junior year UAV group design project -- flying wing avionics and team lead</li>
+    <li>sophomore year UAV team avionics -- camera system for reconnaissance</li>
+    <li>small discord bot in javascript</li>
+</ul>
+
+
+<h1> notes </h1>
+
+<ul>
+    <li><a href="notes/2020-12-25-pain-med-pharmacology">2020-12-25 on the pharmacology of codeine and ibuprofen</a></li>
+    <li><a href="notes/2020-11-30-nsa">2020-11-30 programs operated by the united states national security agency</a></li>
+    <li><a href="notes/2020-11-25-rainbow-tables">2020-11-25 rainbow tables</a></li>
+    <li><a href="notes/2020-10-03-nuclear-war">2020-10-03 nuclear weapons capabilities of the united states</a></li>
+    <li><a href="notes/2019-05-14-flight-day">2019-05-14 sophomore year UAV group design project flight day as team lead</a></li>
+</ul>
+
 
 </body>
 
