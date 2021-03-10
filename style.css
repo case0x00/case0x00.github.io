@@ -4,10 +4,9 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 0 100px;
-/*    background-color: #211626ff;
-    color: white;*/
     font-family:Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
     font-size: 12px;
+    
 }
 
 footer {
