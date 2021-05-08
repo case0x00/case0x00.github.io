@@ -1,5 +1,5 @@
 body {
-/*    max-width: 540px; */
+    max-width: 60%;
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -19,30 +19,8 @@ footer {
     padding: 5px;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
-}
-
-.navbar {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px 0;
-    width: 540px;
-    text-align: center;
-    font-size: 14px;
-}
-
-.navbar a {
-    float: left;
-    width: 25%; 
-    text-decoration: none;
 }
 
 
@@ -55,3 +33,34 @@ a:hover {
     text-decoration: underline;
 }
 
+.images {
+    text-align: center;
+}
+
+.outer-grid {
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+}
+.inner-grid {
+   flex: 30%;
+   max-width: 80%;
+   padding: 0 4px;
+}
+.inner-grid img {
+   margin-top: 8px;
+   width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+   .inner-grid {
+      flex: 50%;
+      max-width: 50%;
+   }
+}
+@media screen and (max-width: 600px) {
+   .inner-grid {
+      flex: 100%;
+      max-width: 100%;
+   }
+}
