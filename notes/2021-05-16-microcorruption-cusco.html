@@ -113,6 +113,7 @@ $ c
 This can be observed by setting a breakpoint at the return of the <code class="code-view">login</code> after entering the password, and observing the location of the stack pointer in the memory dump. The address of the sp is <code class="code-view">0x43fe</code>. The password we entered takes up the addresses from <code class="code-view">0x43ee</code> to <code class="code-view">0x441d</code>. We want to change the contents of the stack pointer address. To do this with our password, we need to offset the payload. This offset is <code class="code-view">0x43fe - 0x43ee = 0x10</code>, which is 16 characters. So we know the offset for the payload, and we know the payload is the address <code class="code-view">0x4528</code> or <code class="code-view">0x2845</code> in little-endian. As such, the final password to gain access is <code class="code-view">000000000000000000000000000000002845</code>. Although the I/O console will say the password is incorrect, the door will be unlocked.
 </p>
 
+
 <br>
 
 </body>
