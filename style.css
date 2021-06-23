@@ -1,11 +1,13 @@
 body {
-/*    max-width: 540px; */
+    max-width: 60%;
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 0 100px;
     font-family:Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-    font-size: 12px;
+    font-size: 14px;
+    background:#222;
+    color:beige;
     
 }
 
@@ -31,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
     text-decoration: none;
-    color: #008B8B;
+    color: #7af;
 }
 
 a:hover {
@@ -45,19 +47,4 @@ a:hover {
 
 .code-view {
     font-weight: bold;
-}
-
-.column-left {
-    float: left;
-    width: 33.333%;
-}
-
-.column-right {
-    float: right;
-    width: 33.333%;
-}
-
-.column-center {
-    display: inline-block;
-    width: 33.333%;
 }
