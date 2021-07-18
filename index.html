@@ -2,171 +2,230 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-	<title>case</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet"> 
+  <title>case</title>
 </head>
 
+
+
 <body>
-<div class="landing">
-<div class="title">case</div>
-
-<br>
-<hr>
-
-<div class="slideshow">
-  <div class="slide fade">
-    <video src="assets/ksp_landing_1.mp4" controls style="width:100%">
-    <div class="text">KSP powered descent guidance software with kRPC</div>
-  </div>
-
-  <div class="slide fade">
-    <img src="assets/placeholder.jpg" style="width:100%">
-    <div class="text">MERCURYGLADE motion planning with ROS2 and gazebo</div>
-  </div>
-
-  <div class="slide fade">
-    <img src="assets/placeholder.jpg" style="width:100%">
-    <div class="text">comma.ai dashcam optical flow with OpenCV</div>
-  </div>
-
-  <div class="slide fade">
-    <img src="assets/placeholder.jpg" style="width:100%">
-    <div class="text">DARKDYNAMO CAD</div>
-  </div>
-
-  <div class="slide fade">
-    <img src="assets/placeholder.jpg" style="width:100%">
-    <div class="text">AZUREVIPER CAD</div>
-  </div>
-
-  <div class="slide fade">
-    <img src="assets/placeholder.jpg" style="width:100%">
-    <div class="text">OCTAVEWATCHER CAD</div>
-  </div>
-
-  <div class="slide fade">
-    <img src="assets/placeholder.jpg" style="width:100%">
-    <div class="text">Kuzushiji recognition with machine learning</div>
-  </div>
-
-
-  <a class="prev" onclick="next_slide(-1)" style="text-decoration: none;">&#10094;</a>
-  <a class="next" onclick="next_slide(1)" style="text-decoration: none;">&#10095;</a>
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="current_slide(1)"></span>
-  <span class="dot" onclick="current_slide(2)"></span>
-  <span class="dot" onclick="current_slide(3)"></span>
-  <span class="dot" onclick="current_slide(4)"></span>
-  <span class="dot" onclick="current_slide(5)"></span>
-  <span class="dot" onclick="current_slide(6)"></span>
-  <span class="dot" onclick="current_slide(7)"></span>
-</div> 
-
-<h1>about me</h1>
-
-<p>I am thomas "case" cutler. I am an engineer and ethical hacker. I recently obtained my bachelors in aerospace engineering. the nickname case came from the 1984 novel neuromancer where the character is a "console cowboy" and a brilliant hacker.</p>
-
-<p>you can find me on twitter <a href="https://twitter.com/caserobotics">@caserobotics</a>, github <a href="https://github.com/caserobotics">caserobotics</a> or email me caserobotics at protonmail dot com</p>
-
-<p>my interest is robotics. I work on hardware, electronics, and software development mainly in the areas of locomotion, motion planning, and computer vision. I also occasionally work on astrodynamics and reverse engineering.</p>
-
-<h1> projects </h1>
-
-<h2> present </h2>
-
-<ul>
-    <li><i>AZUREVIPER</i> -- single-wheeled ~1600mm tall mobile robot for research into auto balancing, using arms for stability, and human-robot interactions</li>
-    <li style="padding-top: 5px;"><i>DARKDYNAMO</i> -- long-legged ~2000mm (maybe ~3000mm in the future) tall tripedal robot for research into 3D foot placement planning in rough terrain</li>
-    <li style="padding-top: 5px;"><i>MERCURYGLADE</i> -- quadrotor for fast and efficient trajectory planning simulated with ROS2 in gazebo</li>
-    <li style="padding-top: 5px;"><i>SOLARNIGHT</i> -- rapid tube-launched UAV deployment from a 6-UAV battery in a truckbed</li>
-    <li style="padding-top: 5px;"><i>DARKPRINCE</i> -- utiziling lighter than air or vertical propulsion for assisted locomotion</li>
-    <li style="padding-top: 5px;"><i>EASTERNMAESTRO</i> -- tunneling robot for long-distance tunneling using bio-inspired locomotion</li>
-    <li style="padding-top: 5px;"><a href="assets/ksp_landing_1.mp4"><i>HAMMERHEAD</i></a> -- KSP powered descent guidance software with kRPC, as an analog to the Masten Space ADAPT (Xombie) test flights</li>
-</ul>
-
-<h2> past </h2>
-
-<ul>
-    <li style="padding-top: 5px;"><a href="https://github.com/caserobotics/krill"><i>KRILL</i></a> -- circular restricted three body problem in python (variation of ZVC for different jacobi integral values, motion of bounded third body using RK4)</li>
+  <!-- header -->
+  <header>
+  <div class="link-block">
     <ul>
-        <li>I do want this to be a CR3BP research toolbox in C++ with python bindings at some point with full support for various libration point orbits, poincare map generation, etc. but I need to do more research into space manifold dynamics</li>
+      <li><h1><small><a href="https://github.com/caseau">github.com/caseau</a></small></h1></li>
     </ul>
-    <li style="padding-top: 5px;"><a href="https://github.com/caserobotics/olympusfire"><i>OLYMPUSFIRE</i></a> -- subdomain recon script in bash</li>
-    <li style="padding-top: 5px;"><a href="https://github.com/caserobotics/EKF-fusion">C++ extended kalman filter</a> for fusing noisy lidar and radar sensor measurements </li>
-    <li style="padding-top: 5px;"><a href="https://github.com/caserobotics/kalman-filter">C++ kalman filter</a> for state estimation of a noisy sinusoidal waveform </li>
-    <li style="padding-top: 5px;"><a href="https://github.com/caserobotics/6.828">MIT 6.828 operating systems in C and x86 asm</a></li>
-    <li style="padding-top: 5px;"><a href="https://github.com/caserobotics/ceres-curve-fitting">least squares curve fitting with ceres and C++</a></li>
-    <li style="padding-top: 5px;"><a href="https://github.com/commaai/comma10k">comma10k segnet labeling and PR checking/fixing for comma.ai openpilot training</a></li>
-    <li style="padding-top: 5px;">junior year rocket competition team avionics -- avionics design</li>
-    <li style="padding-top: 5px;">junior year UAV competition team avionics -- flight computer design</li>
-    <li style="padding-top: 5px;">junior year UAV group design project -- flying wing avionics and team lead</li>
-    <li style="padding-top: 5px;">sophomore year UAV competition team avionics -- camera system for reconnaissance</li>
-    <li style="padding-top: 5px;">sophomore year UAV group design project -- electronics development for UAV, system integration, and team lead</li>
-    <li style="padding-top: 5px;">discord bot in javascript</li>
-</ul>
 
-<h2> backburner </h2>
-<ul>
-    <li style="padding-top: 5px;"><i>VIOLETHALIDE</i> -- humanoid robotics development</li>
-    <li style="padding-top: 5px;"><i>PHANTOMCYCLOPS</i> -- quadrotor with a 2DOF gimballed camera as a UAV hacking testbed, paired with EYEOFSAURON which is a laser attack platform for counter-UAV ops</li>
-    <li style="padding-top: 5px;"><i>BARRACUDA</i> -- medium fidelity low-thrust interplanetary trajectory design and optimization tool in C++ with python bindings</li>
-    <li style="padding-top: 5px;"><i>SWORDFISH</i> -- optimization engine in C++ as an alternative to SNOPT (since it isnt FOSS which is really annoying)</li>
-    <li style="padding-top: 5px;"><i>NAUTILUS</i> -- Earth-Mars analog mission analysis with Python flight software using kRPC in KSP</li>
-</ul>
+  </div>
+  <div class="header-block">
+    <h1>
+      case
+      <small>robotics | reverse engineering | weapons system analysis | foreign policy</small>
+    </h1>
+  </div>
+  </header>
 
-<h1> notes </h1>
+  <!-- main content -->
+  <section id="about-block">
+    <!-- about me block-->
+    <article id="about-me">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+            <h2>about me</h2>
+            <p>I am thomas "case" cutler. I recently obtained my bachelors in Aerospace Engineering. Below are some projects I've done and am currently working on.</p>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
 
-<ul>
-    <li><a href="notes/2020-12-25-pain-med-pharmacology">2020-12-25 on the pharmacology of codeine and ibuprofen</a></li>
-    <li><a href="notes/2020-11-30-nsa">2020-11-30 programs operated by the united states national security agency</a></li>
-    <li><a href="notes/2020-11-25-rainbow-tables">2020-11-25 rainbow tables</a></li>
-    <li><a href="notes/2020-10-03-nuclear-war">2020-10-03 nuclear weapons capabilities of the united states</a></li>
-    <li><a href="notes/2019-05-14-flight-day">2019-05-14 sophomore year UAV group design project flight day as team lead</a></li>
-</ul>
+  <section id="projects-block">
+    <div class="container">
+      <div id="projects" class="row">
+        <div class="col-sm-offset-1 col-sm-10">
+
+
+          <div class="row">
+
+            <!-- WARLOCK -->
+            <div class="proj-element col-sm-offset-1 col-sm-5">
+              <div class="proj-info">
+                <h2>
+                  WARLOCK
+                  <small>intelligence | in-progress</small>
+                </h2>
+                <p>WMD modeling for nonproliferation research</p>
+              </div>
+            </div>
+
+            <!-- BARRACUDA -->
+            <div class="proj-element col-sm-offset-1 col-sm-5">
+              <div class="proj-info">
+                <h2>
+                  BARRACUDA
+                  <small>intelligence | in-progress</small>
+                </h2>
+                <p>tracking PLAN UUVs and naval operations in the South China Sea</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <!-- AZUREVIPER -->
+            <div class="proj-element col-sm-offset-1 col-sm-5">
+              <div class="proj-info">
+                <h2>
+                  AZUREVIPER
+                  <small>robotics | in-progress</small>
+                </h2>
+                <p>ballbot with Drake simulation, CAD model, BOM</p>
+              </div>
+            </div>
+
+            <!-- DARKDYNAMO -->
+            <div class="proj-element col-sm-offset-1 col-sm-5">
+              <div class="proj-info">
+                <h2>
+                  DARKDYNAMO
+                  <small>robotics | in-progress </small>
+                </h2>
+                <p>tall tripedal robot with CAD model, BOM</p>
+              </div>
+            </div>
+
+          </div>
+
+<!--
+          <div class="row">
+
+            <div class="proj-element col-sm-offset-1 col-sm-5">
+              <div class="proj-info">
+                <h2>
+                  3rd year rocketry avionics, flight computer
+                  <small>undergrad</small>
+                </h2>
+                <p>Designed in the avionics PCB in Kicad and wrote firmware in C for a small rocket with a 29mm 2-grain motor</p>
+              </div>
+            </div>
+
+            <div class="proj-element col-sm-offset-1 col-sm-5">
+              <div class="proj-info">
+                <h2>
+                  3rd year UAV avionics, flight computer
+                  <small>undergrad</small>
+                </h2>
+                <p>Designed a custom flight computer in VHDL for a Spartan-6 FPGA for a flying wing UAV</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="proj-element col-sm-offset-1 col-sm-5">
+              <div class="proj-info">
+                <h2>
+                  3rd year UAV avionics lead
+                  <small>undergrad</small>
+                </h2>
+                <p>Wrote target classification software in Python for UAV reconnaissance and lead a small team to develop the avionics</p>
+              </div>
+            </div>
+
+            <div class="proj-element col-sm-offset-1 col-sm-5">
+              <div class="proj-info">
+                <h2>
+                  2nd year UAV avionics, reconnaissance
+                  <small>undergrad</small>
+                </h2>
+                <p>Wrote target classification software in Python and designed a 2DOF gimbal for UAV reconnaissance</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="proj-element col-sm-offset-1 col-sm-5">
+              <div class="proj-info">
+                <h2>
+                  2nd year UAV team lead 
+                  <small>undergrad</small>
+                </h2>
+                <p>Lead a small team to develop a UAV from conceptual design to flight.</p>
+              </div>
+            </div>
+
+            <div class="proj-element col-sm-offset-1 col-sm-5">
+              <div class="proj-info">
+                <h2>
+                  2nd year UAV avionics, reconnaissance
+                  <small>undergrad</small>
+                </h2>
+                <p>Wrote target classification software in Python and designed a 2DOF gimbal for UAV reconnaissance</p>
+              </div>
+            </div>
+
+          </div>
+        -->
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+  </section>
+
+    
+  <!-- notes -->
+  <section id="notes-block">
+    <article id="notes">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+            <h2>notes</h2>
+            <ul>
+              <li>[hacking] 2021-05-16 Microcorruption CTF: Cusco writeup</li>
+              <li>[hacking] 2021-05-13 Microcorruption CTF: Hanoi writeup</li>
+              <li>[hacking] 2021-05-11 Microcorruption CTF: Sydney writeup</li>
+              <li>[hacking] 2021-05-11 Microcorruption CTF: New Orleans writeup</li>
+              <li>[misc] 2020-12-25 on the pharmacology of codeine and ibuprofen</li>
+              <li>[intel] 2020-11-30 programs operated by the united states national security agency</li>
+              <li>[misc] 2020-11-25 rainbow tables</li>
+              <li>[intel] 2020-10-03 nuclear weapons capabilities of the united states</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+
+
+  
+<br>
+<br>
+
 
 
 </body>
 
-<hr>
 <footer>
-    "... teach them to yearn for the vast and endless sea."
+  <hr>
+  "... teach them to yearn for the vast and endless sea."
 </footer>
 </div>
 
-<script>
-var slideIndex = 1;
-show_slide(slideIndex);
 
-function next_slide(n) {
-  show_slide(slideIndex += n);
-}
-
-function current_slide(n) {
-  show_slide(slideIndex = n);
-}
-
-function show_slide(n) {
-  var i;
-  var slides = document.getElementsByClassName("slide");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-} 
-
-</script>
 
 </html>
-
