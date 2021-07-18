@@ -2,82 +2,192 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-	<title>case - Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet"> 
+  <title>case</title>
 </head>
 
+
+
 <body>
-<div class="landing">
+  <!-- header -->
+  <header>
+  <div class="link-block">
+    <ul>
+      <li><h1><small><a href="https://github.com/caseau">github.com/caseau</a></small></h1></li>
+    </ul>
+
+  </div>
+  <div class="header-block">
+    <h1>
+      case
+      <small>robotics | reverse engineering | weapons system analysis | foreign policy</small>
+    </h1>
+  </div>
+  </header>
+
+  <!-- main content -->
+  <section id="about-block">
+    <!-- about me block-->
+    <article id="about-me">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+            <h2>about me</h2>
+            <p>I am thomas "case" cutler. I recently obtained my bachelors in Aerospace Engineering. My current interests are in robotics hardware/software development, hardware/software reverse engineering, and intelligence. The latter consisting of OSINT, East Asian foreign policy, weapons system analysis, (inter)national security, and nonproliferation. Below are some projects I'm working on.</p>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section id="projects-block">
+    <div class="container">
+      <div id="projects" class="row">
+        <div class="col-sm-offset-1 col-sm-10">
+
+
+          <div class="row">
+
+            <!-- WARLOCK -->
+            <div class="proj-element col-sm-offset-1 col-sm-5">
+              <div class="proj-info">
+                <h2>
+                  WARLOCK
+                  <small>intelligence | in-progress</small>
+                </h2>
+                <p>WMD modeling for nonproliferation research through OSINT</p>
+              </div>
+            </div>
+
+            <!-- BARRACUDA -->
+            <div class="proj-element col-sm-offset-1 col-sm-5">
+              <div class="proj-info">
+                <h2>
+                  BARRACUDA
+                  <small>intelligence | in-progress</small>
+                </h2>
+                <p>visualization tool for tracking vessels in the East Asia region through OSINT/GEOINT</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <!-- STINGRAY -->
+            <div class="proj-element col-sm-offset-1 col-sm-5">
+              <div class="proj-info">
+                <h2>
+                  STINGRAY 
+                  <small>intelligence | in-progress</small>
+                </h2>
+                <p>global UUV design and capability research</p>
+              </div>
+            </div>
+
+            <!-- AZUREVIPER -->
+            <div class="proj-element col-sm-offset-1 col-sm-5">
+              <div class="proj-info">
+                <h2>
+                  AZUREVIPER
+                  <small>robotics | in-progress</small>
+                </h2>
+                <p>ballbot simulated in Drake. To build and test sometime soon</p>
+              </div>
+            </div>
+
+          </div>
+          
+          <div class="row">
+
+            <!-- DARKDYNAMO -->
+            <div class="proj-element col-sm-offset-1 col-sm-5">
+              <div class="proj-info">
+                <h2>
+                  DARKDYNAMO
+                  <small>robotics | in-progress </small>
+                </h2>
+                <p>tall tripedal robot with hybrid hydrostatic actuators, (ideally) simulated in Drake. To build and test eventually</p>
+              </div>
+            </div>
+
+            <!-- LOTUSACID -->
+            <div class="proj-element col-sm-offset-1 col-sm-5">
+              <div class="proj-info">
+                <h2>
+                  LOTUSACID
+                  <small>robotics | in-progress </small>
+                </h2>
+                <p>UUV designed for GPS denied environments. might look into submarine comms that avoids vulnerability to ASW</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <!-- IRATETYPHON -->
+            <div class="proj-element col-sm-offset-1 col-sm-5">
+              <div class="proj-info">
+                <h2>
+                  IRATETYPHON 
+                  <small>robotics | in-progress </small>
+                </h2>
+                <p>retrofitting autonomy to farming equipment through reverse engineering</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+  </section>
+
+    
+  <!-- notes -->
+  <!-- I haven't fixed the new formatting yet -->
+  <!---
+  <section id="notes-block">
+    <article id="notes">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1">
+            <h2>notes</h2>
+            <ul>
+              <li><a href="notes/hacking/2021-05-16-microcorruption-cusco">[hacking] 2021-05-16 Microcorruption CTF: Cusco writeup</a></li>
+              <li><a href="notes/hacking/2021-05-13-microcorruption-hanoi">[hacking] 2021-05-13 Microcorruption CTF: Hanoi writeup</a></li>
+              <li><a href="notes/hacking/2021-05-11-microcorruption-sydney">[hacking] 2021-05-11 Microcorruption CTF: Sydney writeup</a></li>
+              <li><a href="notes/hacking/2021-05-11-microcorruption-new-orleans">[hacking] 2021-05-11 Microcorruption CTF: New Orleans writeup</a></li>
+              <li><a href="notes/misc/2020-12-25-pain-med-pharmacology">[misc] 2020-12-25 on the pharmacology of codeine and ibuprofen</a></li>
+              <li><a href="notes/intel/2020-11-30-nsa">[intel] 2020-11-30 programs operated by the united states national security agency</a></li>
+              <li><a href="notes/misc/2020-11-25-rainbow-tables">[misc] 2020-11-25 rainbow tables</a></li>
+              <li><a href="notes/intel/2020-10-03-nuclear-war">intel] 2020-10-03 nuclear weapons capabilities of the united states</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>-->
+
 
 <br>
-
-<h1> about me </h1>
-<p>I am thomas "case" cutler and I am an engineer interested in autonomous systems, AI, reverse engineering, advanced weapons systems, inter/national security, nonproliferation, and military strategy. I'm trying to figure out what direction I want my career to go; I'm tending towards international security and policy while still being able to use my experience in software engineering.</p>
-
-
-<h1> projects </h1>
-<h2> what I'm working on </h2>
-
-<ul>
-    <li>BARRACUDA -- a toolkit/dashboard for easily tracking vessels over multiple OSINT/GEOINT sources</li>
-    <li>an analysis of global capability of advanced weapons platforms such as hypersonic glide missiles and supercavitating torpedos</li>
-    <li>an analysis of US and China UUV capabilities and current activities</li>
-    <li>I'm trying to get into weapons modeling from OSINT sources to better understand nations' capabilities.</li>
-    <li style="padding-top: 5px;"><a href="notes/proj/darkdynamo"><i>DARKDYNAMO</i></a> -- long-legged tripedal robot</li>
-    <li style="padding-top: 5px;">baymax-style robot </li>
-    <ul>
-        <li>although material is a problem. 26-28A (~TangoPlus) is ideal but printer cost is kinda insane</li>
-    </ul>
-    <li style="padding-top: 5px">kaokore facial recognition in python</li>
-    <li style="padding-top: 5px">kuzushiji recognition in python</li>
-    <li style="padding-top: 5px">FPGA AI accelerator for training?</li>
-</ul>
-<h2> what I've done </h2>
-
-<ul>
-    <li style="padding-top: 5px;">bachelors degree in Aerospace Engineering</li>
-    <li style="padding-top: 5px;">junior year rocket competition team avionics -- avionics design</li>
-    <li style="padding-top: 5px;">junior year UAV competition team avionics -- flight computer design</li>
-    <li style="padding-top: 5px;">junior year UAV group design project -- flying wing avionics and team lead</li>
-    <li style="padding-top: 5px;">sophomore year UAV competition team avionics -- camera system for reconnaissance</li>
-    <li style="padding-top: 5px;">sophomore year UAV group design project -- electronics development for UAV, system integration, and team lead</li>
-    <li style="padding-top: 5px;"><a href="https://github.com/caseau/hammerhead"><i>HAMMERHEAD</i></a> -- KSP kRPC powered descent guidance software using GFOLD with cvxpy in python</li>
-    <li style="padding-top: 5px;"><a href="https://github.com/caseau/krill"><i>KRILL</i></a> -- circular restricted three body problem in python</li>
-    <li style="padding-top: 6px;"><a href="https://github.com/caseau/olympusfire"><i>OLYMPUSFIRE</i></a> -- subdomain recon script in bash</li>
-    <li style="padding-top: 5px;"><a href="https://github.com/caseau/EKF-fusion">C++ extended kalman filter</a> for fusing noisy lidar and radar sensor measurements </li>
-    <li style="padding-top: 5px;"><a href="https://github.com/caseau/kalman-filter">C++ kalman filter</a> for state estimation of a noisy sinusoidal waveform </li>
-    <li style="padding-top: 5px;"><a href="https://github.com/caseau/6.828">MIT 6.828 </a>operating systems in C and x86 asm</li>
-    <li style="padding-top: 5px;"><a href="https://github.com/caseau/ceres-curve-fitting">least squares curve fitting with ceres and C++</a></li>
-    <li style="padding-top: 5px;"><a href="https://github.com/commaai/comma10k">comma10k</a> segnet labeling and PR checking/fixing for comma.ai openpilot training</li>
-    <li style="padding-top: 5px;">discord bot in javascript</li>
-</ul>
-
-
-
-
-<h1> notes </h1>
-
-<ul>
-    <li><a href="notes/hacking/2021-05-16-microcorruption-cusco">[hacking] 2021-05-16 Microcorruption CTF: Cusco writeup</a></li>
-    <li><a href="notes/hacking/2021-05-13-microcorruption-hanoi">[hacking] 2021-05-13 Microcorruption CTF: Hanoi writeup</a></li>
-    <li><a href="notes/hacking/2021-05-11-microcorruption-sydney">[hacking] 2021-05-11 Microcorruption CTF: Sydney writeup</a></li>
-    <li><a href="notes/hacking/2021-05-11-microcorruption-new-orleans">[hacking] 2021-05-11 Microcorruption CTF: New Orleans writeup</a></li>
-    <li><a href="notes/misc/2020-12-25-pain-med-pharmacology">[misc] 2020-12-25 on the pharmacology of codeine and ibuprofen</a></li>
-    <li><a href="notes/intel/2020-11-30-nsa">[intel] 2020-11-30 programs operated by the united states national security agency</a></li>
-    <li><a href="notes/misc/2020-11-25-rainbow-tables">[misc] 2020-11-25 rainbow tables</a></li>
-    <li><a href="notes/intel/2020-10-03-nuclear-war">[intel] 2020-10-03 nuclear weapons capabilities of the united states</a></li>
-</ul>
-
+<br>
 
 </body>
 
-<hr>
 <footer>
-    build the future
+  <hr>
+  build the future
 </footer>
 </div>
 
 </html>
-

@@ -1,50 +1,220 @@
-body {
-    max-width: 60%;
-    margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 0 100px;
-    font-family:Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-    font-size: 14px;
-    background:#222;
-    color:beige;
-    
+/* STYLE */
+
+body, html {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  line-height: 1.53333;
 }
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* header image */
+header {
+	background: url("images/header.jpg") center;
+  background-size: cover;
+  height: 260px;
+  color: rgb(0, 0, 0);
+}
+
+header div.header-block {
+  margin: -40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 60px;
+  color: white;
+}
+
+header h1 small {
+  display: block;
+  text-transform: none;
+  font-size: 16px;
+}
+
+/* block for link to github in header */
+header div.link-block ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+header div.link-block ul li {
+  padding: 0 0 0 60px;
+  display: inline-block;
+}
+
+header div.link-block ul li a {
+  color: white;
+  display: block;
+  float: left;
+  text-decoration: none;
+}
+
+header div.link-block ul li a:hover {
+  opacity: 0.3;
+  text-decoration: black;
+}
+
+/* about me section */
+section#about-block {
+  margin: 50px 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+section#about-block article {
+  text-align: center;
+}
+
+section#about-block article p {
+  margin-top: 1.5em;
+}
+
+section#about-block article#about-me p {
+  text-align: left;
+}
+
+/* projects section */
+section#projects-block {
+  padding: 50px 0;
+}
+
+section#projects-block div.proj-element {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  *zoom: 1;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+section#projects-block div.proj-element div.proj-info {
+  margin-left: 10px;
+}
+
+section#projects-block div.proj-element div.proj-info h2 {
+  margin: 0;
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+
+section#projects-block div.proj-element div.proj-info h2 small {
+  font-size: 12px;
+  display: block;
+  text-transform: none;
+  color: #9a9a9a;
+}
+
+section#projects-block div.proj-element div.proj-info p {
+  margin: 5px 0;
+  line-height: 1.33333;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+.container:after {
+  clear: both;
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.col-sm-offset-1 {
+  margin-left: 8.33333%;
+}
+
+.col-sm-5,
+.col-sm-8,
+.col-sm-10 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .col-sm-5,
+  .col-sm-10,
+  .col-sm-8 {
+    float: left;
+  }
+  .col-sm-5 {
+    width: 41.66667%;
+  }
+  .col-sm-8 {
+    width: 66.66667%;
+  }
+  .col-sm-10 {
+    width: 83.33333%;
+  }
+  .col-sm-offset-1 {
+    margin-left: 8.33333%;
+  }
+  .col-sm-offset-2 {
+    margin-left: 16.66667%;
+  }
+}
+
+/* notes */
+section#notes-block {
+  margin: 100px 100px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+section#notes-block article {
+  text-align: center;
+}
+
+section#notes-block article p {
+  margin-top: 1.5em;
+}
+
+section#notes-block article#notes ul {
+  text-align: left;
+  list-style: none;
+}
+
+
+section#notes-block article#notes ul li a {
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+
+
+section#notes-block article#notes ul li a:hover {
+  opacity: 0.3;
+  text-decoration: white;
+}
+
+
+
 
 footer {
-    text-align: center;
-}
-
-.title {
-    text-align: center;
-    font-size: 24pt;
-    padding: 5px;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
-}
-
-a {
-    text-decoration: none;
-    color: #7af;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-
-.debugger-prompt {
-    font-style: italic;
-}
-
-.code-view {
-    font-weight: bold;
+  margin: 2em;
+  text-align: center;
 }
