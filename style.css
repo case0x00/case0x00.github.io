@@ -4,6 +4,14 @@ body, html {
   font-family: 'Roboto Slab', serif;
   margin: 0;
   padding: 0;
+  font-size: 13px;
+  line-height: 1.53333;
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
 }
 
 /* header image */
@@ -171,7 +179,7 @@ section#projects-block div.proj-element div.proj-info p {
 
 /* notes */
 section#notes-block {
-  margin: 50px 50px;
+  margin: 100px 100px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -186,6 +194,19 @@ section#notes-block article p {
 
 section#notes-block article#notes ul {
   text-align: left;
+  list-style: none;
+}
+
+section#notes-block article#notes ul li a {
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+
+
+section#notes-block article#notes ul li a:hover {
+  opacity: 0.3;
+  text-decoration: white;
 }
 
 
