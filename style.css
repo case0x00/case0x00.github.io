@@ -108,6 +108,7 @@ section#projects-block div.proj-element div.proj-info h2 {
   font-size: 1.6rem;
 }
 
+
 section#projects-block div.proj-element div.proj-info h2 small {
   font-size: 12px;
   display: block;
@@ -197,6 +198,7 @@ section#notes-block article#notes ul {
   list-style: none;
 }
 
+
 section#notes-block article#notes ul li a {
   color: black;
   display: block;
@@ -208,7 +210,6 @@ section#notes-block article#notes ul li a:hover {
   opacity: 0.3;
   text-decoration: white;
 }
-
 
 
 
